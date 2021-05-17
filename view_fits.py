@@ -55,8 +55,6 @@ def get_smpl(pkl_data):
             pos = smpl_joints[ear_joints, :].mean(0)
             rad = 0.10
 
-        pos[2] -= 0.1
-
         smpl_marker = util.o3d_get_sphere(color=color, pos=pos, radius=rad)
         all_markers.append(smpl_marker)
 
