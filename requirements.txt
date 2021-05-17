@@ -1,0 +1,9 @@
+numpy
+torch
+smplx
+open3d
+matplotlib
+pyquaternion
+opencv-python
+scikit-image
+chumpy
